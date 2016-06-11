@@ -4,8 +4,8 @@
 		.module('app', [])
 		.controller('myCtrl', myCtrl)
 
-	function myCtrl($scope) {
-		$scope.holla = 'holla'
+	function myCtrl() {
+		this.holla = 'holla'
 	}
 
 })();
